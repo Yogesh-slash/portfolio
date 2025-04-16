@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume – Yogesh Sonwane </title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #f0f4ff, #e6f7ff);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .btn-animate:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+
+<header id="hero" class="bg-gradient-to-r from-indigo-100 to-white py-20 text-center">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-center mb-4">
+      <a href="https://www.linkedin.com/in/yogesh-sonwane-79b421234" target="_blank"
+        aria-label="LinkedIn Profile" class="text-indigo-600 hover:text-indigo-800 transition-colors">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path
+            d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.77 0 5-2.24 5-5v-14c0-2.76-2.23-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.31c.89-1.18 2.19-1.81 3.5-1.81 2.5 0 4.5 2 4.5 4.5v6z" />
+        </svg>
+      </a>
+    </div>
+    <h1 class="text-4xl font-extrabold text-gray-800">Mr.Yogesh Sonwane</h1>
+    <h2 class="text-2xl text-gray-600 mt-2">Software Developer | Full-Stack Developer</h2>
+    <p class="mt-4 text-gray-500">Kolhapur</p>
+  </div>
+</header>
+  <div class="h-20"></div>
+
+  <!-- Resume Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-4 max-w-2xl text-center">
+      <h1 class="text-3xl font-bold mb-6 animate-pulse">📄 My Resume</h1>
+
+      <p class="mb-8 text-lg">You can view or download my latest resume below.</p>
+
+      <!-- View Resume Button -->
+      <a href="Yogesh Sonwane Resume.pdf" target="_blank"
+         class="btn-animate inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+        View Resume
+      </a>
+
+      <!-- Download Resume Button -->
+      <a href="Yogesh Sonwane Resume.pdf" download
+         class="btn-animate ml-4 inline-block bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold px-6 py-3 rounded-full shadow-md transition">
+        Download Resume
+      </a>
+
+      <div class="mt-10">
+        <a href="index .html" class="text-indigo-700 underline hover:text-indigo-500">← Back to Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
