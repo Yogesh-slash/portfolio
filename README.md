@@ -2,4 +2,4 @@
 Hi! I'm Yogesh Sonwane.
 
 # About me
-I'm  Software Developer.I Like to work on Software Developement and Aplication Development. 
+I’m a Python AI/ML Engineer who loves turning data into smart solutions. From building ML models to deploying APIs, I enjoy solving real-world problems with Python, Pandas, NumPy, and Scikit-learn—always curious, always learning. 
